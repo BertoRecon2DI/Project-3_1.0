@@ -13,11 +13,13 @@
 */
 
 body {
+  color: white;
     font-family: tahoma, geneva, sans-serif;
-    background-image: url();
+    background-image: url(mountain.jpg);
 }
 
 #articleheader {
+  color: white;
     font-size: 18px;
     font-kerning: 7px;
     text-align: center;
@@ -35,20 +37,19 @@ nav ul  {
 
 nav ul li a {
     color: white;
-    opacity: 50%;
+    color: rgba(255, 255, 255, .5);
     text-decoration: none;
 }
 
 
 nav ul li a:hover {
-    background-color: rgb(131, 121, 36);
     color: yellow;
-    color: rgba(255, 255, 255, 1.0);
 
 }
 
 nav ul li:hover{
   list-style-image: url(wheelmarker.png);
+  background-color: rgb(131, 121, 36);
 }
 
 /*paragraphs*/
@@ -77,15 +78,17 @@ blockquote p::after, blockquote p::before {
 /*rightsection*/
 
 #rightsection h1 {
-
+color: white;
 font-size: 22px;
 font-kerning: 3px;
 font-weight: normal;
 text-align: center;
+letter-spacing: 0.2em;
+
 }
 
 #rightsection h2 {
-
+color: white;
 font-size: 18px;
 font-kerning: 3px;
 font-weight: normal;
@@ -93,12 +96,13 @@ text-align: right;
 }
 
 #rightsection p{
-color: grey;
+color: rgb(216, 255, 191);
 font-size: 14px;
 text-align: justify;
 }
 /*footer style*/
  footer address{
+   color: yellowgreen;
   font-size: 16px;
   font-style: normal;
   text-align: center;
