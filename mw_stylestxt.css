@@ -1,0 +1,105 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author:
+   Date:
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+
+*/
+
+body {
+    font-family: tahoma, geneva, sans-serif;
+    background-image: url();
+}
+
+#articleheader {
+    font-size: 18px;
+    font-kerning: 7px;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+/*nav features*/
+
+nav ul  {
+  background-color: rgb(125, 120, 89);
+  line-height: 3em;
+  list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    background-color: rgb(131, 121, 36);
+    color: yellow;
+    color: rgba(255, 255, 255, 1.0);
+
+}
+
+nav ul li:hover{
+  list-style-image: url(wheelmarker.png);
+}
+
+/*paragraphs*/
+
+#leftsection > p {
+    font-size: 22px;
+}
+
+#firstpar:first-line {
+    text-transform: uppercase;
+}
+
+/*blockquote*/
+
+blockquote {
+  background-color: rgb(131, 121, 36);
+  color: white;
+  font-size: 16px;
+  font-family: comic sans MS, times, cursive;
+}
+
+blockquote p::after, blockquote p::before {
+  content:'"';
+}
+
+/*rightsection*/
+
+#rightsection h1 {
+
+font-size: 22px;
+font-kerning: 3px;
+font-weight: normal;
+text-align: center;
+}
+
+#rightsection h2 {
+
+font-size: 18px;
+font-kerning: 3px;
+font-weight: normal;
+text-align: right;
+}
+
+#rightsection p{
+color: grey;
+font-size: 14px;
+text-align: justify;
+}
+/*footer style*/
+ footer address{
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+}
